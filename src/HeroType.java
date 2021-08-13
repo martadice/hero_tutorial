@@ -1,0 +1,5 @@
+    enum HeroType {
+        Hero,
+        Villain
+    }
+

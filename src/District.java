@@ -5,7 +5,7 @@ public class District {
  private String title;
  private String city;
  private int districtID;
- ArrayList<Hero> heroesInTheDistrict = new ArrayList<Hero>();
+  ArrayList<Hero> heroesInTheDistrict = new ArrayList<Hero>();
 
     public District() {
     }
@@ -23,6 +23,9 @@ public class District {
     }
     public Hero removeHero (int index) {
     return heroesInTheDistrict.remove(index);
+
+
+
     }
 
     @Override
